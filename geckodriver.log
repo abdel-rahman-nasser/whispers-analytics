@@ -1,0 +1,848 @@
+1656287437614	geckodriver	INFO	Listening on 127.0.0.1:52523
+1656287439710	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "52524" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileVf1b4c"
+*** You are running in headless mode.
+1656287441940	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileVf1b4c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52524/devtools/browser/d3ed7440-3b91-4ac7-8209-412e0031a336
+1656287444466	Marionette	INFO	Listening on port 52551
+Read port: 
+1656287444649	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 52551
+1656287444822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yv/l/en_GB/8Poj3pgb-lC.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656287474466	Marionette	INFO	Stopped listening on port 52551
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656287756730	geckodriver	INFO	Listening on 127.0.0.1:52664
+1656287758832	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "52665" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileasYTaS"
+*** You are running in headless mode.
+1656287760046	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileasYTaS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52665/devtools/browser/77334262-ab48-463d-b1fa-ad52f584a100
+1656287761996	Marionette	INFO	Listening on port 52686
+Read port: 
+1656287762181	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 52686
+1656287762312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yv/l/en_GB/8Poj3pgb-lC.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656287788700	Marionette	INFO	Stopped listening on port 52686
+[Parent 7264, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PRemoteWorkerService::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656322491362	geckodriver	INFO	Listening on 127.0.0.1:55311
+1656322493284	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "55312" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilehxHbRh"
+*** You are running in headless mode.
+1656322497444	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilehxHbRh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55312/devtools/browser/54ced2e8-ba89-4841-b6b7-cae9f37eeab6
+1656322506919	Marionette	INFO	Listening on port 55346
+Read port: 55346
+1656322507458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yv/l/en_GB/8Poj3pgb-lC.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656322548494	Marionette	INFO	Stopped listening on port 55346
+1656323804290	geckodriver	INFO	Listening on 127.0.0.1:55457
+1656323806180	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "55458" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilebuz8d8"
+*** You are running in headless mode.
+1656323808468	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilebuz8d8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55458/devtools/browser/590e288c-7df9-4e28-9636-ec064a5168c6
+1656323810669	Marionette	INFO	Listening on port 55481
+Read port: 55481
+1656323810775	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yv/l/en_GB/8Poj3pgb-lC.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656323831265	Marionette	INFO	Stopped listening on port 55481
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7360, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:556
+1656439020855	geckodriver	INFO	Listening on 127.0.0.1:50141
+1656439022920	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50142" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileZKYIEm"
+*** You are running in headless mode.
+1656439026218	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileZKYIEm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50142/devtools/browser/2e16baa0-86f5-4fb9-a45b-7d812db5f045
+1656439032126	Marionette	INFO	Listening on port 50169
+Read port: 50169
+1656439033048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656439064040	Marionette	INFO	Stopped listening on port 50169
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656440320898	geckodriver	INFO	Listening on 127.0.0.1:50340
+1656440322910	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50341" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileey2WLg"
+*** You are running in headless mode.
+1656440323557	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileey2WLg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50341/devtools/browser/084047ce-18c5-4121-bd17-9e07d707d0ce
+1656440325485	Marionette	INFO	Listening on port 50365
+Read port: 50365
+1656440326244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656440341653	Marionette	INFO	Stopped listening on port 50365
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656440439905	geckodriver	INFO	Listening on 127.0.0.1:50454
+1656440442070	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50455" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileMpCRIQ"
+*** You are running in headless mode.
+1656440442636	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileMpCRIQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50455/devtools/browser/210ba2fd-7ee5-4a6c-8856-6ab1e7027200
+1656440444574	Marionette	INFO	Listening on port 50479
+Read port: 50479
+1656440444674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656440461015	Marionette	INFO	Stopped listening on port 50479
+[Parent 5924, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 5924, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:556
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1656440604371	geckodriver	INFO	Listening on 127.0.0.1:50574
+1656440606435	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50575" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile3j8i3n"
+*** You are running in headless mode.
+1656440607361	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile3j8i3n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50575/devtools/browser/d9e82490-2305-4c69-971c-8ea2d595ab8e
+1656440609602	Marionette	INFO	Listening on port 50604
+Read port: 50604
+1656440609676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656440625186	Marionette	INFO	Stopped listening on port 50604
+[Parent 7880, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:556
+1656440827311	geckodriver	INFO	Listening on 127.0.0.1:50692
+1656440829501	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50693" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilebF5TpM"
+*** You are running in headless mode.
+1656440830171	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilebF5TpM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50693/devtools/browser/81ddd3b2-6344-4ec7-9056-a6f782aa7eb7
+1656440832008	Marionette	INFO	Listening on port 50718
+Read port: 50718
+1656440832147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656448091478	geckodriver	INFO	Listening on 127.0.0.1:51248
+1656448093533	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "51249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileHYn5jK"
+*** You are running in headless mode.
+1656448094684	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileHYn5jK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51249/devtools/browser/466fb444-92bd-4aa7-aec2-1d143be1d6e7
+1656448098606	Marionette	INFO	Listening on port 51274
+Read port: 51274
+1656448099203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656448163463	geckodriver	INFO	Listening on 127.0.0.1:51353
+1656448165317	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "51354" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileQhiDOn"
+*** You are running in headless mode.
+1656448167236	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileQhiDOn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51354/devtools/browser/9a917a5f-2454-4a94-bf09-919369ca0830
+1656448169794	Marionette	INFO	Listening on port 51378
+Read port: 51378
+1656448170693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1f-47d9-b8e9-a4bf25411393
+1656448184809	Marionette	INFO	Listening on port 51479
+Read port: 51479
+1656448185008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1656448196737	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-serconsole.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.faceb*** You arJavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abM[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilezObvV4\\search.json.mozlz4", (void 0)))
+1656448249134	geckodriver	INFO	Listening on 127.0.0.1:51584
+1656448250584	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "51585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofiledVGpuK"
+*** You are running in headless mode.
+1656448252459	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofiledVGpuK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51585/devtools/browser/c2480748-59bd-4281-b9f9-f13a9d50bfc7
+1656448254860	Marionette	INFO	Listening on port 51610
+Read port: 51610
+1656448255290	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+ver" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "51686" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileo0Yv8N"
+*** You are running in headless mode.
+1656448274288	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileo0Yv8N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51686/devtools/browser/59099eb6-b793-45b7-a2a2-87bdb4a41195
+1656448277401	Marionette	INFO	Listening on port 51713
+Read port: 51713
+1656448277605	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656448453229	geckodriver	INFO	Listening on 127.0.0.1:51785
+1656448454964	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "51786" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileE4zMzG"
+*** You are running in headless mode.
+1656448456892	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileE4zMzG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51786/devtools/browser/ab85d729-c596-4178-8139-72134c906ec7
+1656448459149	Marionette	INFO	Listening on port 51808
+Read port: 51808
+1656448459607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656459532264	geckodriver	INFO	Listening on 127.0.0.1:54501
+1656459534332	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "54502" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileMK4eMa"
+*** You are running in headless mode.
+1656459535401	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileMK4eMa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54502/devtools/browser/722edfac-558c-4c9d-a700-8fc47a38e578
+1656459537627	Marionette	INFO	Listening on port 54527
+Read port: 54527
+1656459537759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656577097455	geckodriver	INFO	Listening on 127.0.0.1:56033
+1656577099542	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "56034" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile7FEGWQ"
+*** You are running in headless mode.
+1656577102909	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile7FEGWQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56034/devtools/browser/11bae49e-8be9-43f0-9674-670851be5893
+1656577109473	Marionette	INFO	Listening on port 56069
+Read port: 56069
+1656577110068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656577312299	geckodriver	INFO	Listening on 127.0.0.1:56180
+1656577314260	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "56181" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileL8p73o"
+*** You are running in headless mode.
+1656577316278	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileL8p73o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56181/devtools/browser/d762d068-49cc-4889-a465-d9af2491f544
+1656577319004	Marionette	INFO	Listening on port 56210
+Read port: 56210
+1656577319139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656577748425	geckodriver	INFO	Listening on 127.0.0.1:56391
+1656577750396	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "56392" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile86n8CQ"
+*** You are running in headless mode.
+1656577753728	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile86n8CQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56392/devtools/browser/5ffd8714-e1a3-4e4b-b75b-1c8f7033373d
+1656577756516	Marionette	INFO	Listening on port 56419
+Read port: 56419
+1656577756850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656578665799	geckodriver	INFO	Listening on 127.0.0.1:57435
+1656578667906	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "57436" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilek2Iedh"
+*** You are running in headless mode.
+1656578669832	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilek2Iedh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57436/devtools/browser/e304ca9e-7210-49a2-8bd3-c5b93a4e7b3b
+1656578671906	Marionette	INFO	Listening on port 57460
+Read port: 57460
+1656578672039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3in8a4/yT/l/en_GB/abMNEFXq9Gm.js?_nc_x=Ij3Wp8lg5Kz, line 71: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656578834257	geckodriver	INFO	Listening on 127.0.0.1:57552
+1656578836846	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "57553" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilevwziHh"
+*** You are running in headless mode.
+1656578838712	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilevwziHh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57553/devtools/browser/63ddddd5-5b3c-4c3e-ba5e-016475300467
+1656578840838	Marionette	INFO	Listening on port 57565
+Read port: 57565
+1656578840897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1656632782528	geckodriver	INFO	Listening on 127.0.0.1:56845
+1656632784348	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "56846" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilenKTVvq"
+*** You are running in headless mode.
+1656632788521	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilenKTVvq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56846/devtools/browser/a2df96e6-1fce-4b3f-9165-592c0dfb0a3b
+1656632797528	Marionette	INFO	Listening on port 56877
+Read port: 56877
+1656632798024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yH/l/en_GB/rsXxtzqElt_.js?_nc_x=Ij3Wp8lg5Kz, line 57: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656633640464	geckodriver	INFO	Listening on 127.0.0.1:56991
+1656633642319	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "56992" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileyHOVyC"
+*** You are running in headless mode.
+1656633644516	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileyHOVyC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56992/devtools/browser/8f3a12ae-7f1f-44dc-a57d-be4528540483
+1656633647380	Marionette	INFO	Listening on port 57017
+Read port: 57017
+1656633647720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+<<<<<<< HEAD
+1656762045478	geckodriver	INFO	Listening on 127.0.0.1:62391
+1656762047555	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "62392" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileqZP31A"
+*** You are running in headless mode.
+1656762051450	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileqZP31A\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62392/devtools/browser/6829c309-2fab-4ed3-8c60-a1d458bcb736
+1656762057424	Marionette	INFO	Listening on port 62421
+Read port: 62421
+1656762057742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656762772364	geckodriver	INFO	Listening on 127.0.0.1:62709
+1656762774392	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "62710" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileJVwLti"
+*** You are running in headless mode.
+1656762776895	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileJVwLti\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62710/devtools/browser/0da702e7-8f4d-46dc-9fc5-412cbf243c8b
+1656762779285	Marionette	INFO	Listening on port 62734
+Read port: 62734
+1656762780023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656762910204	geckodriver	INFO	Listening on 127.0.0.1:62808
+1656762912007	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "62809" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile6ZT7xQ"
+*** You are running in headless mode.
+1656762914336	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile6ZT7xQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62809/devtools/browser/fcbc79b2-043f-43ce-8838-4b0d448e1d3e
+1656762916499	Marionette	INFO	Listening on port 62833
+Read port: 62833
+1656762916620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656768156926	geckodriver	INFO	Listening on 127.0.0.1:63545
+1656768158802	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "63546" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilePOEpf8"
+*** You are running in headless mode.
+1656768161484	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilePOEpf8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63546/devtools/browser/101c7cf1-8dda-4c28-bb8e-9fae1fa2c9c6
+1656768163710	Marionette	INFO	Listening on port 63571
+Read port: 63571
+1656768163815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656769353723	geckodriver	INFO	Listening on 127.0.0.1:63926
+1656769355708	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "63927" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileMHRzsV"
+*** You are running in headless mode.
+1656769358057	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileMHRzsV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63927/devtools/browser/48e00293-1512-4771-a426-59b8a7717ae4
+1656769360326	Marionette	INFO	Listening on port 63954
+Read port: 63954
+1656769360440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656769438520	geckodriver	INFO	Listening on 127.0.0.1:64032
+1656769441443	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "64033" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilegnaWgT"
+*** You are running in headless mode.
+1656769442267	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilegnaWgT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64033/devtools/browser/c67dc6e5-9ef1-41d5-a1d3-ae2d31b9b5ab
+1656769444813	Marionette	INFO	Listening on port 64047
+Read port: 64047
+1656769445003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656770305188	geckodriver	INFO	Listening on 127.0.0.1:64255
+1656770307470	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "64256" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilegfXjN8"
+*** You are running in headless mode.
+1656770309473	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilegfXjN8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64256/devtools/browser/e8c86c6a-defc-49f7-949d-bccc872f0718
+1656770311401	Marionette	INFO	Listening on port 64279
+Read port: 64279
+1656770311468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656779756472	geckodriver	INFO	Listening on 127.0.0.1:65263
+1656779758448	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "65264" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilefv0CUK"
+*** You are running in headless mode.
+1656779760751	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilefv0CUK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65264/devtools/browser/cfe1763c-b7ea-4ccf-9edf-ba2abc6b888a
+1656779764545	Marionette	INFO	Listening on port 65288
+Read port: 65288
+1656779764735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656782903892	geckodriver	INFO	Listening on 127.0.0.1:49932
+1656782905868	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "49933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileYYBNo6"
+*** You are running in headless mode.
+1656782908370	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileYYBNo6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49933/devtools/browser/6dc4a3a2-0c24-4f6c-9635-95ed0541f2af
+1656782911682	Marionette	INFO	Listening on port 49959
+Read port: 49959
+1656782911763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656783732857	geckodriver	INFO	Listening on 127.0.0.1:50091
+1656783734752	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50092" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilenaSnBm"
+*** You are running in headless mode.
+1656783736944	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilenaSnBm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50092/devtools/browser/bff7e5ab-9442-48e0-958e-820cd34436e9
+1656783739219	Marionette	INFO	Listening on port 50115
+Read port: 50115
+1656783739346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656785270584	geckodriver	INFO	Listening on 127.0.0.1:50337
+1656785272547	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50338" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile0RCY60"
+*** You are running in headless mode.
+1656785275105	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile0RCY60\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50338/devtools/browser/c3207189-18ff-4530-9c9b-390e1676bf90
+1656785277952	Marionette	INFO	Listening on port 50363
+Read port: 50363
+1656785278058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656785367108	geckodriver	INFO	Listening on 127.0.0.1:50440
+1656785369176	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofiler5j8qE"
+*** You are running in headless mode.
+1656785371077	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofiler5j8qE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50441/devtools/browser/30a57633-6bfe-446b-a9eb-f3c8363a7f2a
+1656785373040	Marionette	INFO	Listening on port 50464
+Read port: 50464
+1656785373145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656786337473	geckodriver	INFO	Listening on 127.0.0.1:50574
+1656786339422	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50575" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofiletOXEht"
+*** You are running in headless mode.
+1656786341655	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofiletOXEht\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50575/devtools/browser/b8fd303a-551a-44e0-9527-8ede31ccabee
+1656786344642	Marionette	INFO	Listening on port 50601
+Read port: 
+1656786344767	geckodriver::browser	WARN	Failed fo convert  to u16
+Read port: 50601
+1656786344956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+=======
+1656768602800	geckodriver	INFO	Listening on 127.0.0.1:50991
+1656768782565	geckodriver	INFO	Listening on 127.0.0.1:51123
+1656780380239	geckodriver	INFO	Listening on 127.0.0.1:61200
+>>>>>>> 23672687ef25b3e43ed837fb16fd508a52d51e59
+1656820676702	geckodriver	INFO	Listening on 127.0.0.1:53383
+1656820678564	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "53384" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileHOVoEo"
+*** You are running in headless mode.
+1656820684092	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileHOVoEo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53384/devtools/browser/c3b48f4a-e7f1-449e-8870-d85f10124397
+1656820691933	Marionette	INFO	Listening on port 53413
+Read port: 53413
+1656820692518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yg/l/en_GB/ALWiWBtWTpB.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1656862211506	geckodriver	INFO	Listening on 127.0.0.1:57874
+1656862491487	geckodriver	INFO	Listening on 127.0.0.1:57975
+1656864046651	geckodriver	INFO	Listening on 127.0.0.1:59050
+1656864052623	geckodriver	INFO	Listening on 127.0.0.1:59069
+1656865007041	geckodriver	INFO	Listening on 127.0.0.1:64909
+1656865028309	geckodriver	INFO	Listening on 127.0.0.1:64922
+1656960327613	geckodriver	INFO	Listening on 127.0.0.1:49989
+1657129294438	geckodriver	INFO	Listening on 127.0.0.1:50524
+1657129296672	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilez4nbrW"
+*** You are running in headless mode.
+1657129302379	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilez4nbrW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50525/devtools/browser/ed3a5b54-501b-4017-9ab0-b19bdff52df9
+1657129311732	Marionette	INFO	Listening on port 50557
+Read port: 50557
+1657129311926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/jUu3kdT5xDO.js?_nc_x=Ij3Wp8lg5Kz, line 142: Error: Destroyed!
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657129448967	geckodriver	INFO	Listening on 127.0.0.1:50664
+1657129450427	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50665" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileQl0SsK"
+*** You are running in headless mode.
+1657129453447	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileQl0SsK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50665/devtools/browser/7c180d20-e6cc-4dd0-ad9e-48f7c1e28d40
+1657129456426	Marionette	INFO	Listening on port 50690
+Read port: 50690
+1657129456551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657129979404	geckodriver	INFO	Listening on 127.0.0.1:50917
+1657129981421	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "50918" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileiM4V0O"
+*** You are running in headless mode.
+1657129983854	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileiM4V0O\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50918/devtools/browser/35d0592a-aa4c-44aa-ab81-a15a1351772a
+1657129986199	Marionette	INFO	Listening on port 50943
+Read port: 50943
+1657129986235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657130167877	geckodriver	INFO	Listening on 127.0.0.1:51070
+1657130169892	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "51071" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileT4ySpm"
+*** You are running in headless mode.
+1657130170749	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileT4ySpm\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51071/devtools/browser/97952c87-8088-4df0-af6a-3d955e50cfc4
+1657130173195	Marionette	INFO	Listening on port 51094
+Read port: 51094
+1657130174170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657151265604	geckodriver	INFO	Listening on 127.0.0.1:63728
+1657151267597	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "63729" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileWXEBSu"
+*** You are running in headless mode.
+1657151269881	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileWXEBSu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63729/devtools/browser/a2b7dd2b-8678-47c4-a4c4-7b2ebc3fe966
+1657151274452	Marionette	INFO	Listening on port 63754
+Read port: 63754
+1657151274628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657152352015	geckodriver	INFO	Listening on 127.0.0.1:63893
+1657152353916	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "63894" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileuIrHRn"
+*** You are running in headless mode.
+1657152355899	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofileuIrHRn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63894/devtools/browser/dd797e79-ea99-4baa-b08f-95a99f74d396
+1657152358017	Marionette	INFO	Listening on port 63920
+Read port: 63920
+1657152358098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657152848789	geckodriver	INFO	Listening on 127.0.0.1:64051
+1657152850589	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "64052" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilej6NEzu"
+*** You are running in headless mode.
+1657152852755	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilej6NEzu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64052/devtools/browser/cd50fe17-b0e3-4c71-925a-9f626f9174d9
+1657152854856	Marionette	INFO	Listening on port 64079
+Read port: 64079
+1657152854923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657153074671	geckodriver	INFO	Listening on 127.0.0.1:64186
+1657153076250	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "64187" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilei6LZO2"
+*** You are running in headless mode.
+1657153079418	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofilei6LZO2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64187/devtools/browser/f6974b3b-9246-4500-8cc9-d82e34898ccc
+1657153082599	Marionette	INFO	Listening on port 64211
+Read port: 64211
+1657153082927	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657153906790	geckodriver	INFO	Listening on 127.0.0.1:64438
+1657153908669	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-proxy-server" "--disable-dev-shm-usage" "--disable-gpu" "log-level=3" "--remote-debugging-port" "64439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile1cWsod"
+*** You are running in headless mode.
+1657153910797	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\HTG\\AppData\\Local\\Temp\\rust_mozprofile1cWsod\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64439/devtools/browser/2ab64666-0329-4944-a302-3b237f07262a
+1657153912857	Marionette	INFO	Listening on port 64464
+Read port: 64464
+1657153912994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yT/l/en_GB/9MewECx4VB1.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iJVZ4/yy/l/en_GB/iMIc3tYEsUl.js?_nc_x=Ij3Wp8lg5Kz, line 55: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1657206389128	geckodriver	INFO	Listening on 127.0.0.1:54570
+1657206407084	geckodriver	INFO	Listening on 127.0.0.1:54589
+1657209605177	geckodriver	INFO	Listening on 127.0.0.1:52815
+1657212061585	geckodriver	INFO	Listening on 127.0.0.1:54873
+1657212197189	geckodriver	INFO	Listening on 127.0.0.1:55002
+1657380311322	geckodriver	INFO	Listening on 127.0.0.1:53046
+1657380329318	geckodriver	INFO	Listening on 127.0.0.1:53080
+1657380406677	geckodriver	INFO	Listening on 127.0.0.1:53171
+1657380418943	geckodriver	INFO	Listening on 127.0.0.1:53198
+1657380437412	geckodriver	INFO	Listening on 127.0.0.1:53214
+1657380626332	geckodriver	INFO	Listening on 127.0.0.1:53445
+1657381044751	geckodriver	INFO	Listening on 127.0.0.1:56453
+1657381182005	geckodriver	INFO	Listening on 127.0.0.1:56640
+1657381228258	geckodriver	INFO	Listening on 127.0.0.1:56746
+1657381256551	geckodriver	INFO	Listening on 127.0.0.1:56788
+1657381417399	geckodriver	INFO	Listening on 127.0.0.1:56871
+1657381470636	geckodriver	INFO	Listening on 127.0.0.1:56955

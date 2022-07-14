@@ -1,0 +1,1005 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+		/>
+		<title>Whispers Analytics App</title>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="{%static 'assets/img/favicon-new.ico' %}"
+		/>
+		<link
+			href="{%static 'assets/css/loader.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="{%static 'assets/js/loader.js' %}"></script>
+
+		<!-- BEGIN GLOBAL MANDATORY STYLES -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Nunito:400,600,700"
+			rel="stylesheet"
+		/>
+		<link
+			href="{%static 'bootstrap/css/bootstrap.min.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/plugins.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<!-- END GLOBAL MANDATORY STYLES -->
+
+		<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+		<link
+			href="{%static 'plugins/apex/apexcharts.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/dashboard/dash_1.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'plugins/loaders/custom-loader.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/elements/popover.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/custom.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/components/tabs-accordian/custom-accordions.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<!-- <link
+			href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+			rel="stylesheet"
+		/> -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="{%static 'style.css'%}" />
+		<!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+
+		<style>
+			.card-header section > div:not(.collapsed) svg {
+				transform: rotate(180deg);
+			}
+		</style>
+	</head>
+	<body class="alt-menu sidebar-noneoverflow">
+		<!-- BEGIN LOADER -->
+		<div class="page-loader">
+			<div class="loader mx-auto"></div>
+			<p>Loading... please wait</p>
+		</div>
+		<!--  END LOADER -->
+
+		<!--  BEGIN NAVBAR  
+		<div class="header-container fixed-top">
+			<header class="header navbar navbar-expand-sm expand-header">
+				<a
+					href="javascript:void(0);"
+					class="sidebarCollapse"
+					data-placement="bottom"
+					><svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="feather feather-menu"
+					>
+						<line x1="3" y1="12" x2="21" y2="12"></line>
+						<line x1="3" y1="6" x2="21" y2="6"></line>
+						<line x1="3" y1="18" x2="21" y2="18"></line>
+					</svg>
+				</a>
+
+				<ul class="navbar-item flex-row ml-auto">
+					<li
+						class="nav-item dropdown language-dropdown"
+						style="
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							margin-right: 20px;
+						"
+					>
+						<button
+							class="btn btn-primary"
+							data-toggle="modal"
+							data-target="#new_query"
+						>
+							New query
+						</button>
+					</li>
+
+					
+
+					<li class="nav-item dropdown language-dropdown">
+						<a
+							href="javascript:void(0);"
+							class="nav-link dropdown-toggle"
+							id="language-dropdown"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							<img
+								src="{%static 'assets/img/ca.png' %}"
+								class="flag-width"
+								alt="flag"
+							/>
+						</a>
+						<div
+							class="dropdown-menu position-absolute"
+							aria-labelledby="language-dropdown"
+						>
+							<a class="dropdown-item d-flex" href="javascript:void(0);"
+								><img
+									src="{%static 'assets/img/de.png' %}"
+									class="flag-width"
+									alt="flag"
+								/>
+								<span class="align-self-center">&nbsp;German</span></a
+							>
+							<a class="dropdown-item d-flex" href="javascript:void(0);"
+								><img
+									src="{%static 'assets/img/jp.png' %}"
+									class="flag-width"
+									alt="flag"
+								/>
+								<span class="align-self-center">&nbsp;Japanese</span></a
+							>
+							<a class="dropdown-item d-flex" href="javascript:void(0);"
+								><img
+									src="{%static 'assets/img/fr.png' %}"
+									class="flag-width"
+									alt="flag"
+								/>
+								<span class="align-self-center">&nbsp;French</span></a
+							>
+							<a class="dropdown-item d-flex" href="javascript:void(0);"
+								><img
+									src="{%static 'assets/img/ca.png' %}"
+									class="flag-width"
+									alt="flag"
+								/>
+								<span class="align-self-center">&nbsp;English</span></a
+							>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown message-dropdown">
+						<a
+							href="javascript:void(0);"
+							class="nav-link dropdown-toggle"
+							id="messageDropdown"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="feather feather-mail"
+							>
+								<path
+									d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+								></path>
+								<polyline points="22,6 12,13 2,6"></polyline>
+							</svg>
+						</a>
+
+						<div
+							class="dropdown-menu position-absolute"
+							aria-labelledby="messageDropdown"
+						>
+							<div>
+								<a class="dropdown-item">
+									<div>
+										<div class="media">
+											<div class="user-img">
+												<div class="avatar avatar-xl">
+													<span class="avatar-title rounded-circle">KY</span>
+												</div>
+											</div>
+											<div class="media-body">
+												<div>
+													<h5 class="usr-name">Kara Young</h5>
+													<p class="msg-title">ACCOUNT UPDATE</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a class="dropdown-item">
+									<div>
+										<div class="media">
+											<div class="user-img">
+												<img
+													src="{%static 'assets/img/90x90.jpg' %}"
+													class="img-fluid mr-2"
+													alt="avatar"
+												/>
+											</div>
+											<div class="media-body">
+												<div>
+													<h5 class="usr-name">Daisy Anderson</h5>
+													<p class="msg-title">ACCOUNT UPDATE</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+								<a class="dropdown-item">
+									<div class="">
+										<div class="media">
+											<div class="user-img">
+												<div class="avatar avatar-xl">
+													<span class="avatar-title rounded-circle">OG</span>
+												</div>
+											</div>
+											<div class="media-body">
+												<div class="">
+													<h5 class="usr-name">Oscar Garner</h5>
+													<p class="msg-title">ACCOUNT UPDATE</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown notification-dropdown">
+						<a
+							href="javascript:void(0);"
+							class="nav-link dropdown-toggle"
+							id="notificationDropdown"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="feather feather-bell"
+							>
+								<path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+								<path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+							</svg>
+							<span class="badge badge-success"></span>
+						</a>
+
+						<div
+							class="dropdown-menu position-absolute"
+							aria-labelledby="notificationDropdown"
+						>
+							<div class="notification-scroll">
+								<div class="dropdown-item">
+									<div class="media server-log">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											class="feather feather-server"
+										>
+											<rect
+												x="2"
+												y="2"
+												width="20"
+												height="8"
+												rx="2"
+												ry="2"
+											></rect>
+											<rect
+												x="2"
+												y="14"
+												width="20"
+												height="8"
+												rx="2"
+												ry="2"
+											></rect>
+											<line x1="6" y1="6" x2="6" y2="6"></line>
+											<line x1="6" y1="18" x2="6" y2="18"></line>
+										</svg>
+										<div class="media-body">
+											<div class="data-info">
+												<h6 class="">Server Rebooted</h6>
+												<p class="">45 min ago</p>
+											</div>
+
+											<div class="icon-status">
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="24"
+													height="24"
+													viewBox="0 0 24 24"
+													fill="none"
+													stroke="currentColor"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													class="feather feather-x"
+												>
+													<line x1="18" y1="6" x2="6" y2="18"></line>
+													<line x1="6" y1="6" x2="18" y2="18"></line>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="dropdown-item">
+									<div class="media">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											class="feather feather-heart"
+										>
+											<path
+												d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+											></path>
+										</svg>
+										<div class="media-body">
+											<div class="data-info">
+												<h6 class="">Licence Expiring Soon</h6>
+												<p class="">8 hrs ago</p>
+											</div>
+
+											<div class="icon-status">
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="24"
+													height="24"
+													viewBox="0 0 24 24"
+													fill="none"
+													stroke="currentColor"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													class="feather feather-x"
+												>
+													<line x1="18" y1="6" x2="6" y2="18"></line>
+													<line x1="6" y1="6" x2="18" y2="18"></line>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="dropdown-item">
+									<div class="media file-upload">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											viewBox="0 0 24 24"
+											fill="none"
+											stroke="currentColor"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											class="feather feather-file-text"
+										>
+											<path
+												d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+											></path>
+											<polyline points="14 2 14 8 20 8"></polyline>
+											<line x1="16" y1="13" x2="8" y2="13"></line>
+											<line x1="16" y1="17" x2="8" y2="17"></line>
+											<polyline points="10 9 9 9 8 9"></polyline>
+										</svg>
+										<div class="media-body">
+											<div class="data-info">
+												<h6 class="">Kelly Portfolio.pdf</h6>
+												<p class="">670 kb</p>
+											</div>
+
+											<div class="icon-status">
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="24"
+													height="24"
+													viewBox="0 0 24 24"
+													fill="none"
+													stroke="currentColor"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													class="feather feather-check"
+												>
+													<polyline points="20 6 9 17 4 12"></polyline>
+												</svg>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li
+						class="nav-item dropdown user-profile-dropdown order-lg-0 order-1"
+					>
+						<a
+							href="javascript:void(0);"
+							class="nav-link dropdown-toggle user"
+							id="userProfileDropdown"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="feather feather-user"
+							>
+								<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+								<circle cx="12" cy="7" r="4"></circle>
+							</svg>
+						</a>
+
+						<div
+							class="dropdown-menu position-absolute"
+							aria-labelledby="userProfileDropdown"
+						>
+							<div class="user-profile-section">
+								<div class="media mx-auto">
+									<img
+										src="{%static 'assets/img/90x90.jpg' %}"
+										class="img-fluid mr-2"
+										alt="avatar"
+									/>
+									<div class="media-body">
+										{% if user.is_authenticated %}
+										<h5>{{ user.username }}</h5>
+										{% endif %}
+										<p>Marketer</p>
+									</div>
+								</div>
+							</div>
+							<div class="dropdown-item">
+								<a href="/">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										class="feather feather-user"
+									>
+										<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+										<circle cx="12" cy="7" r="4"></circle>
+									</svg>
+									<span>Profile</span>
+								</a>
+							</div>
+							<div class="dropdown-item">
+								<a href="/">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										class="feather feather-inbox"
+									>
+										<polyline
+											points="22 12 16 12 14 15 10 15 8 12 2 12"
+										></polyline>
+										<path
+											d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"
+										></path>
+									</svg>
+									<span>Inbox</span>
+								</a>
+							</div>
+							<div class="dropdown-item">
+								<a href="/">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										class="feather feather-lock"
+									>
+										<rect
+											x="3"
+											y="11"
+											width="18"
+											height="11"
+											rx="2"
+											ry="2"
+										></rect>
+										<path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+									</svg>
+									<span>Lock Screen</span>
+								</a>
+							</div>
+							<div class="dropdown-item">
+								<a href="{%url 'signout' %}">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										stroke="currentColor"
+										stroke-width="2"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										class="feather feather-log-out"
+									>
+										<path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+										<polyline points="16 17 21 12 16 7"></polyline>
+										<line x1="21" y1="12" x2="9" y2="12"></line>
+									</svg>
+									<span>Log Out</span>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</header>
+		</div>
+		<!--  END NAVBAR  -->
+
+		<!--  BEGIN MAIN CONTAINER  -->
+		<div class="main-container sbar-open" id="container">
+			<div class="overlay"></div>
+			<div class="search-overlay"></div>
+
+			<!--  BEGIN SIDEBAR  -->
+			<div class="sidebar-wrapper sidebar-theme">
+				<nav id="sidebar">
+					<ul class="navbar-nav theme-brand flex-row text-center">
+						<li class="nav-item theme-logo">
+							<a href="/">
+								<img
+									src="{%static 'assets/img/logo.png' %}"
+									class="navbar-logo"
+									alt="logo"
+								/>
+							</a>
+						</li>
+					</ul>
+
+					<div class="sections-sidebar-items-wrapper">
+						<a href="{%url 'home' %}" class="section-card">
+							<h4>Sentiment analysis</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								ratione atque rerum aliquid veritatis quo magnam repudiandae
+								illum voluptatem harum!
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="feather feather-pie-chart"
+							>
+								<path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+								<path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+							</svg>
+						</a>
+						<a
+							href="{%url 'social_media_monitoring_index' %}"
+							class="section-card"
+						>
+							<h4>Social Media Monitoring</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								ratione atque rerum aliquid veritatis quo magnam repudiandae
+								illum voluptatem harum!
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								version="1.1"
+								id="Layer_1"
+								x="0px"
+								y="0px"
+								viewBox="0 0 512 512"
+								style="enable-background: new 0 0 512 512"
+								xml:space="preserve"
+								fill="#fff"
+							>
+								<path
+									d="M316.487,417.365h-0.893l-19.446-81.211c-11.838,2.34-24.034,3.81-36.496,4.026l18.519,77.186h-44.345l18.519-77.185    c-12.461-0.217-24.657-1.686-36.495-4.026l-19.445,81.21h-0.893c-35.557,0-64.479,29.509-64.479,65.065v10.779    c0,10.051,8.142,18.791,18.193,18.791h213.548c10.051,0,18.193-8.74,18.193-18.791V482.43    C380.966,446.874,352.044,417.365,316.487,417.365z"
+								/>
+								<path
+									d="M274.198,33.774V18.199C274.198,8.148,266.05,0,255.999,0S237.8,8.148,237.8,18.199v15.575l-77.227,87.553h48.44    L237.8,88.939v32.388h36.398V88.939l28.79,32.388h48.439L274.198,33.774z"
+								/>
+								<path
+									d="M430.528,146.242c-2.588-6.9-9.224-11.569-17.026-11.569H98.497c-7.803,0-14.438,4.67-17.026,11.569    c-0.746,1.989-1.173,4.006-1.173,6.254c0,19.307,3.14,37.831,8.92,55.222c23.221,69.878,89.207,120.353,166.781,120.353    c77.575,0,143.559-50.538,166.782-120.416c5.781-17.391,8.92-35.977,8.92-55.284C431.7,150.122,431.274,148.23,430.528,146.242z"
+								/>
+							</svg>
+						</a>
+						<a href="{%url 'g_trends' %}" class="section-card">
+							<h4>Google trends</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								ratione atque rerum aliquid veritatis quo magnam repudiandae
+								illum voluptatem harum!
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								viewBox="0 0 24 24"
+								version="1.1"
+							>
+								<g
+									id="brand"
+									stroke="none"
+									stroke-width="1"
+									fill="none"
+									fill-rule="evenodd"
+								>
+									<g id="google" fill="#fff" fill-rule="nonzero">
+										<path
+											d="M11.99,13.9 L11.99,10.18 L21.35,10.18 C21.49,10.81 21.6,11.4 21.6,12.23 C21.6,17.94 17.77,22 12,22 C6.48,22 2,17.52 2,12 C2,6.48 6.48,2 12,2 C14.7,2 16.96,2.99 18.69,4.61 L15.85,7.37 C15.13,6.69 13.87,5.89 12,5.89 C8.69,5.89 5.99,8.64 5.99,12.01 C5.99,15.38 8.69,18.13 12,18.13 C15.83,18.13 17.24,15.48 17.5,13.91 L11.99,13.91 L11.99,13.9 Z"
+											id="Shape"
+										/>
+									</g>
+								</g>
+							</svg>
+						</a>
+						<a href="{%url 'chatbots_list' %}" class="section-card">
+							<h4>Chatbot builder</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								ratione atque rerum aliquid veritatis quo magnam repudiandae
+								illum voluptatem harum!
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								role="img"
+								fill="#fff"
+							>
+								<path
+									d="M11.999 0c-2.25 0-4.5.06-6.6.21a5.57 5.57 0 0 0-5.19 5.1c-.24 3.21-.27 6.39-.06 9.6a5.644 5.644 0 0 0 5.7 5.19h3.15v-3.9h-3.15c-.93.03-1.74-.63-1.83-1.56-.18-3-.15-6 .06-9 .06-.84.72-1.47 1.56-1.53 2.04-.15 4.2-.21 6.36-.21s4.32.09 6.36.18c.81.06 1.5.69 1.56 1.53.24 3 .24 6 .06 9-.12.93-.9 1.62-1.83 1.59h-3.15l-6 3.9V24l6-3.9h3.15c2.97.03 5.46-2.25 5.7-5.19.21-3.18.18-6.39-.03-9.57a5.57 5.57 0 0 0-5.19-5.1c-2.13-.18-4.38-.24-6.63-.24zm-5.04 8.76c-.36 0-.66.3-.66.66v2.34c0 .33.18.63.48.78 1.62.78 3.42 1.2 5.22 1.26 1.8-.06 3.6-.48 5.22-1.26.3-.15.48-.45.48-.78V9.42c0-.09-.03-.15-.09-.21a.648.648 0 0 0-.87-.36c-1.5.66-3.12 1.02-4.77 1.05-1.65-.03-3.27-.42-4.77-1.08a.566.566 0 0 0-.24-.06z"
+								/>
+							</svg>
+						</a>
+						<a href="{%url 'signout' %}" class="section-card logout-card">
+							<h4>Logout</h4>
+						</a>
+					</div>
+				</nav>
+			</div>
+			<!--  END SIDEBAR  -->
+
+			<!--  BEGIN CONTENT AREA  -->
+			{% block content %}
+			<div id="content" class="main-content">
+				<div class="layout-px-spacing">
+					<div class="row layout-top-spacing">
+						<div
+							class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing"
+						>
+							<h5 style="color: white">Create new chatbot</h5>
+							<form action="{% url 'create_new_chatbot' %}" method="post">
+								{% csrf_token %}
+								<div class="widget widget-one">
+									<div class="widget-content">
+										<div class="form-group">
+											<label>Chatbot name</label>
+											<input
+												type="text"
+												class="form-control"
+												name="chatbot_name"
+											/>
+										</div>
+									</div>
+								</div>
+								<br />
+								<input type="hidden" name="number_of_rows" value="1" />
+								<h4 style="color: white">Topics</h4>
+
+								<div
+									id="accordionTopic1"
+									class="single-topic-row original-topics-row"
+								>
+									<div class="card">
+										<div
+											class="card-header"
+											style="color: white; cursor: pointer"
+										>
+											<section class="mb-0 mt-0">
+												<div
+													role="menu"
+													class="collapsed"
+													data-toggle="collapse"
+													data-target="#topic1"
+													aria-expanded="true"
+													aria-controls="topic1"
+												>
+													<span class="title">Topic #1</span>
+													<div class="icons">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="24"
+															height="24"
+															viewBox="0 0 24 24"
+															fill="none"
+															stroke="currentColor"
+															stroke-width="2"
+															stroke-linecap="round"
+															stroke-linejoin="round"
+															class="feather feather-chevron-up"
+														>
+															<polyline points="18 15 12 9 6 15"></polyline>
+														</svg>
+													</div>
+												</div>
+											</section>
+										</div>
+
+										<div
+											id="topic1"
+											class="collapse"
+											data-parent="#accordionTopic1"
+										>
+											<div class="widget widget-one">
+												<div class="widget-content">
+													<div class="row">
+														<div class="col-4">
+															<div class="form-group">
+																<label> Topic title </label>
+																<input
+																	type="text"
+																	class="form-control"
+																	name="topic_1_name"
+																/>
+															</div>
+														</div>
+														<div class="col-4">
+															<div class="form-group">
+																<label> Topic expected messages </label>
+																<textarea
+																	type="text"
+																	class="form-control"
+																	rows="8"
+																	name="topic_1_patterns"
+																></textarea>
+															</div>
+														</div>
+														<div class="col-4">
+															<div class="form-group">
+																<label> Topic response messages </label>
+																<textarea
+																	type="text"
+																	class="form-control"
+																	rows="8"
+																	name="topic_1_responses"
+																></textarea>
+															</div>
+														</div>
+														<div class="col-12">
+															<button
+																class="btn btn-danger float-right remove-topic"
+																style="display: none"
+															>
+																Remove topic
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<br />
+
+								<button class="btn btn-info add-new-topic" type="button">
+									Add new topic
+								</button>
+
+								<button class="btn btn-primary" type="submit">Save</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endblock %}
+			<!--  END CONTENT AREA  -->
+		</div>
+		<!-- END MAIN CONTAINER -->
+
+		<!-- MODALS -->
+		<!-- Modal 
+		<div
+			class="modal fade"
+			id="new_query"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<form class="modal-content" action="/home" method="get">
+					<div class="modal-header">
+						<h5 class="modal-title" id="new_query">New query</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<svg
+								aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="white"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="feather feather-x"
+							>
+								<line x1="18" y1="6" x2="6" y2="18"></line>
+								<line x1="6" y1="6" x2="18" y2="18"></line>
+							</svg>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="exampleFormControlInput1">You query key</label>
+							<input type="text" class="form-control" name="q" value="Tesla" />
+						</div>
+
+						<div class="form-group">
+							<label for="exampleFormControlInput1">Language</label>
+							<select class="form-control" name="lang" id="lango2">
+								<option selected disabled>Language</option>
+								<option value="en">English</option>
+								<option value="ar">Arabic</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="exampleFormControlInput1"
+								>Sentiment Analysis Method</label
+							>
+							<select class="form-control" name="analysis" id="analysiso2">
+								<option selected disabled>Analysis Method</option>
+								<option value="textblob">TextBlob "Quick"</option>
+								<option value="bert">Bert "Slow"</option>
+								<option value="camelbert">CamelBert "Arabic"</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlInput1"
+								>How many records? (50-1000)</label
+							>
+							<input
+								type="range"
+								class="form-control"
+								min="50"
+								max="1000"
+								value="100"
+								name="limit"
+							/>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal">
+							<i class="flaticon-cancel-12"></i> Discard
+						</button>
+						<button type="submit" class="btn btn-primary">Query</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- /MODALS -->
+
+		<!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+		<script src="{%static 'assets/js/libs/jquery-3.1.1.min.js' %}"></script>
+		<script src="{%static 'bootstrap/js/popper.min.js' %}"></script>
+		<script src="{%static 'bootstrap/js/bootstrap.min.js' %}"></script>
+		<script src="{%static 'plugins/perfect-scrollbar/perfect-scrollbar.min.js' %}"></script>
+		<script src="{%static 'assets/js/app.js' %}"></script>
+		<script>
+			$(document).ready(function () {
+				App.init();
+			});
+		</script>
+		<script src="{%static 'assets/js/custom.js' %}"></script>
+		<!-- END GLOBAL MANDATORY SCRIPTS -->
+
+		<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+		<script src="{%static 'plugins/apex/apexcharts.min.js' %}"></script>
+		<script src="{%static 'assets/js/dashboard/home-page.js' %}"></script>
+		<script src="{%static 'assets/js/dashboard/chatbot-create-view.js' %}"></script>
+		<script src="{%static 'assets/js/elements/popovers.js' %}"></script>
+		<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+	</body>
+</html>

@@ -1,0 +1,1063 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"
+		/>
+		<title>Whispers Analytics App</title>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="{%static 'assets/img/favicon-new.ico' %}"
+		/>
+		<link
+			href="{%static 'assets/css/loader.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="{%static 'assets/js/loader.js' %}"></script>
+
+		<!-- BEGIN GLOBAL MANDATORY STYLES -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Nunito:400,600,700"
+			rel="stylesheet"
+		/>
+		<link
+			href="{%static 'bootstrap/css/bootstrap.min.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/plugins.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<!-- END GLOBAL MANDATORY STYLES -->
+
+		<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+		<link
+			href="{%static 'plugins/apex/apexcharts.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/dashboard/dash_1.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'plugins/loaders/custom-loader.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/elements/popover.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link
+			href="{%static 'assets/css/custom.css' %}"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="{%static 'style.css'%}" />
+		<!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+	</head>
+	<body class="alt-menu sidebar-noneoverflow">
+		<!-- BEGIN LOADER -->
+		<div class="page-loader">
+			<div class="loader mx-auto"></div>
+			<p>Loading... please wait</p>
+		</div>
+		<!--  END LOADER -->
+
+		<!--  BEGIN MAIN CONTAINER  -->
+		<div class="main-container sbar-open" id="container">
+			<div class="overlay"></div>
+			<div class="search-overlay"></div>
+
+			<!--  BEGIN SIDEBAR  -->
+			<div class="sidebar-wrapper sidebar-theme">
+				<nav id="sidebar">
+					<ul class="navbar-nav theme-brand flex-row text-center">
+						<li class="nav-item theme-logo">
+							<a href="/">
+								<img
+									src="{%static 'assets/img/logo.png' %}"
+									class="navbar-logo"
+									alt="logo"
+								/>
+							</a>
+						</li>
+					</ul>
+
+					<div class="sections-sidebar-items-wrapper">
+						<a href="{%url 'home' %}" class="section-card">
+							<h4>Sentiment analysis</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								ratione atque rerum aliquid veritatis quo magnam repudiandae
+								illum voluptatem harum!
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="feather feather-pie-chart"
+							>
+								<path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+								<path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+							</svg>
+						</a>
+						<a
+							href="{%url 'social_media_monitoring_index' %}"
+							class="section-card"
+						>
+							<h4>Social Media Monitoring</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								ratione atque rerum aliquid veritatis quo magnam repudiandae
+								illum voluptatem harum!
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								version="1.1"
+								id="Layer_1"
+								x="0px"
+								y="0px"
+								viewBox="0 0 512 512"
+								style="enable-background: new 0 0 512 512"
+								xml:space="preserve"
+								fill="#fff"
+							>
+								<path
+									d="M316.487,417.365h-0.893l-19.446-81.211c-11.838,2.34-24.034,3.81-36.496,4.026l18.519,77.186h-44.345l18.519-77.185    c-12.461-0.217-24.657-1.686-36.495-4.026l-19.445,81.21h-0.893c-35.557,0-64.479,29.509-64.479,65.065v10.779    c0,10.051,8.142,18.791,18.193,18.791h213.548c10.051,0,18.193-8.74,18.193-18.791V482.43    C380.966,446.874,352.044,417.365,316.487,417.365z"
+								/>
+								<path
+									d="M274.198,33.774V18.199C274.198,8.148,266.05,0,255.999,0S237.8,8.148,237.8,18.199v15.575l-77.227,87.553h48.44    L237.8,88.939v32.388h36.398V88.939l28.79,32.388h48.439L274.198,33.774z"
+								/>
+								<path
+									d="M430.528,146.242c-2.588-6.9-9.224-11.569-17.026-11.569H98.497c-7.803,0-14.438,4.67-17.026,11.569    c-0.746,1.989-1.173,4.006-1.173,6.254c0,19.307,3.14,37.831,8.92,55.222c23.221,69.878,89.207,120.353,166.781,120.353    c77.575,0,143.559-50.538,166.782-120.416c5.781-17.391,8.92-35.977,8.92-55.284C431.7,150.122,431.274,148.23,430.528,146.242z"
+								/>
+							</svg>
+						</a>
+						<a href="{%url 'g_trends' %}" class="section-card">
+							<h4>Google trends</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								ratione atque rerum aliquid veritatis quo magnam repudiandae
+								illum voluptatem harum!
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								viewBox="0 0 24 24"
+								version="1.1"
+							>
+								<g
+									id="brand"
+									stroke="none"
+									stroke-width="1"
+									fill="none"
+									fill-rule="evenodd"
+								>
+									<g id="google" fill="#fff" fill-rule="nonzero">
+										<path
+											d="M11.99,13.9 L11.99,10.18 L21.35,10.18 C21.49,10.81 21.6,11.4 21.6,12.23 C21.6,17.94 17.77,22 12,22 C6.48,22 2,17.52 2,12 C2,6.48 6.48,2 12,2 C14.7,2 16.96,2.99 18.69,4.61 L15.85,7.37 C15.13,6.69 13.87,5.89 12,5.89 C8.69,5.89 5.99,8.64 5.99,12.01 C5.99,15.38 8.69,18.13 12,18.13 C15.83,18.13 17.24,15.48 17.5,13.91 L11.99,13.91 L11.99,13.9 Z"
+											id="Shape"
+										/>
+									</g>
+								</g>
+							</svg>
+						</a>
+						<a href="{%url 'chatbots_list' %}" class="section-card">
+							<h4>Chatbot builder</h4>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+								ratione atque rerum aliquid veritatis quo magnam repudiandae
+								illum voluptatem harum!
+							</p>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								role="img"
+								fill="#fff"
+							>
+								<path
+									d="M11.999 0c-2.25 0-4.5.06-6.6.21a5.57 5.57 0 0 0-5.19 5.1c-.24 3.21-.27 6.39-.06 9.6a5.644 5.644 0 0 0 5.7 5.19h3.15v-3.9h-3.15c-.93.03-1.74-.63-1.83-1.56-.18-3-.15-6 .06-9 .06-.84.72-1.47 1.56-1.53 2.04-.15 4.2-.21 6.36-.21s4.32.09 6.36.18c.81.06 1.5.69 1.56 1.53.24 3 .24 6 .06 9-.12.93-.9 1.62-1.83 1.59h-3.15l-6 3.9V24l6-3.9h3.15c2.97.03 5.46-2.25 5.7-5.19.21-3.18.18-6.39-.03-9.57a5.57 5.57 0 0 0-5.19-5.1c-2.13-.18-4.38-.24-6.63-.24zm-5.04 8.76c-.36 0-.66.3-.66.66v2.34c0 .33.18.63.48.78 1.62.78 3.42 1.2 5.22 1.26 1.8-.06 3.6-.48 5.22-1.26.3-.15.48-.45.48-.78V9.42c0-.09-.03-.15-.09-.21a.648.648 0 0 0-.87-.36c-1.5.66-3.12 1.02-4.77 1.05-1.65-.03-3.27-.42-4.77-1.08a.566.566 0 0 0-.24-.06z"
+								/>
+							</svg>
+						</a>
+						<a href="{%url 'signout' %}" class="section-card logout-card">
+							<h4>Logout</h4>
+						</a>
+					</div>
+				</nav>
+			</div>
+			<!--  END SIDEBAR  -->
+
+			<!--  BEGIN CONTENT AREA  -->
+			{% block content %}
+			<div id="content" class="main-content">
+				<div class="layout-px-spacing">
+					<div class="charts-loader">
+						<div class="loader mx-auto"></div>
+						<p>Crushing numbers ... please wait</p>
+					</div>
+
+					<div
+						class="row layout-top-spacing social-media-monitoring-charts-wrapper"
+						style="display: none"
+					>
+						<div
+							class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12 layout-spacing"
+						>
+							<div class="widget widget-chart-three">
+								<div class="widget-heading" style="border-bottom: none">
+									<div class="">
+										<h5 class="">
+											Totals of Likes, comments and shares per month
+										</h5>
+
+									</div>
+
+									<div class="dropdown">
+										<a
+											class="dropdown-toggle"
+											href="#"
+											role="button"
+											id="uniqueVisitors"
+											data-toggle="dropdown"
+											aria-haspopup="true"
+											aria-expanded="false"
+										>
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="24"
+												height="24"
+												viewBox="0 0 24 24"
+												fill="none"
+												stroke="currentColor"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												class="feather feather-more-horizontal"
+											>
+												<circle cx="12" cy="12" r="1"></circle>
+												<circle cx="19" cy="12" r="1"></circle>
+												<circle cx="5" cy="12" r="1"></circle>
+											</svg>
+										</a>
+
+										<div
+											class="dropdown-menu dropdown-menu-right"
+											aria-labelledby="uniqueVisitors"
+										>
+											<a class="dropdown-item" href="javascript:void(0);"
+												>View</a
+											>
+											<a class="dropdown-item" href="javascript:void(0);"
+												>Update</a
+											>
+											<a class="dropdown-item" href="javascript:void(0);"
+												>Download</a
+											>
+										</div>
+									</div>
+								</div>
+
+								<div class="widget-content">
+									<div id="uniqueVisits"></div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing"
+						>
+							<div class="widget widget-activity-five">
+								<div class="widget-heading" style="border-bottom: none">
+									<h5 class="">Your platforms summary</h5>
+								</div>
+
+								<div class="widget-content">
+									<div class="w-shadow-top"></div>
+
+									<div class="mt-container mx-auto">
+										<div class="timeline-line">
+											<div class="item-timeline timeline-new total-likes">
+												<div class="t-dot">
+													<div class="t-secondary">
+														<svg
+															class="feather feather-heart sc-dnqmqq jxshSx"
+															xmlns="http://www.w3.org/2000/svg"
+															viewBox="0 0 24 24"
+															fill="none"
+															stroke="currentColor"
+															stroke-width="1"
+															stroke-linecap="round"
+															stroke-linejoin="round"
+															aria-hidden="true"
+														>
+															<path
+																d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+															></path>
+														</svg>
+													</div>
+												</div>
+												<div class="t-content">
+													<div class="t-uppercontent">
+														<h5>Total of likes across all platforms</h5>
+													</div>
+													<p>--</p>
+												</div>
+											</div>
+
+											<div class="item-timeline timeline-new total-shares">
+												<div class="t-dot">
+													<div class="t-success">
+														<svg
+															class="feather feather-repeat sc-dnqmqq jxshSx"
+															xmlns="http://www.w3.org/2000/svg"
+															viewBox="0 0 24 24"
+															fill="none"
+															stroke="currentColor"
+															stroke-width="1"
+															stroke-linecap="round"
+															stroke-linejoin="round"
+															aria-hidden="true"
+														>
+															<polyline points="17 1 21 5 17 9"></polyline>
+															<path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+															<polyline points="7 23 3 19 7 15"></polyline>
+															<path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+														</svg>
+													</div>
+												</div>
+												<div class="t-content">
+													<div class="t-uppercontent">
+														<h5>Total number of shares</h5>
+													</div>
+													<p>--</p>
+												</div>
+											</div>
+
+											<div class="item-timeline timeline-new total-comments">
+												<div class="t-dot">
+													<div class="t-primary">
+														<svg
+															class="feather feather-message-circle sc-dnqmqq jxshSx"
+															xmlns="http://www.w3.org/2000/svg"
+															viewBox="0 0 24 24"
+															fill="none"
+															stroke="currentColor"
+															stroke-width="1"
+															stroke-linecap="round"
+															stroke-linejoin="round"
+															aria-hidden="true"
+														>
+															<path
+																d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+															></path>
+														</svg>
+													</div>
+												</div>
+												<div class="t-content">
+													<div class="t-uppercontent">
+														<h5>Total numbers of comments</h5>
+													</div>
+													<p>--</p>
+												</div>
+											</div>
+
+											<div class="item-timeline timeline-new top-month">
+												<div class="t-dot">
+													<div class="t-danger">
+														<?xml version="1.0" encoding="iso-8859-1"?>
+														<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+														<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+														<svg
+															version="1.1"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink"
+															x="0px"
+															y="0px"
+															viewBox="0 0 511 511"
+															style="
+																enable-background: new 0 0 511 511;
+																fill: white;
+															"
+															xml:space="preserve"
+														>
+															<path
+																d="M471.5,56H423V31.5c0-4.142-3.358-7.5-7.5-7.5s-7.5,3.358-7.5,7.5V56h-65V31.5c0-4.142-3.358-7.5-7.5-7.5
+		s-7.5,3.358-7.5,7.5V56h-65V31.5c0-4.142-3.358-7.5-7.5-7.5s-7.5,3.358-7.5,7.5V56h-65V31.5c0-4.142-3.358-7.5-7.5-7.5
+		s-7.5,3.358-7.5,7.5V56h-65V31.5c0-4.142-3.358-7.5-7.5-7.5S88,27.358,88,31.5V56H39.5C17.72,56,0,73.72,0,95.5v352
+		C0,469.28,17.72,487,39.5,487h432c21.78,0,39.5-17.72,39.5-39.5v-352C511,73.72,493.28,56,471.5,56z M496,447.5
+		c0,13.509-10.991,24.5-24.5,24.5h-432C25.991,472,15,461.009,15,447.5v-352C15,81.991,25.991,71,39.5,71H88v24.5
+		c0,4.142,3.358,7.5,7.5,7.5s7.5-3.358,7.5-7.5V71h65v24.5c0,4.142,3.358,7.5,7.5,7.5s7.5-3.358,7.5-7.5V71h65v24.5
+		c0,4.142,3.358,7.5,7.5,7.5s7.5-3.358,7.5-7.5V71h65v24.5c0,4.142,3.358,7.5,7.5,7.5s7.5-3.358,7.5-7.5V71h65v24.5
+		c0,4.142,3.358,7.5,7.5,7.5s7.5-3.358,7.5-7.5V71h48.5c13.509,0,24.5,10.991,24.5,24.5V447.5z"
+															/>
+															<path
+																d="M471.5,136h-432c-4.142,0-7.5,3.358-7.5,7.5s3.358,7.5,7.5,7.5h432c4.142,0,7.5-3.358,7.5-7.5S475.642,136,471.5,136z"
+															/>
+															<path
+																d="M386.197,226.197L229.51,382.883c-3.314,3.313-8.706,3.313-12.021,0l-76.687-76.687c-2.929-2.929-7.678-2.929-10.606,0
+		c-2.929,2.929-2.929,7.678,0,10.606l76.687,76.687c4.438,4.438,10.339,6.883,16.617,6.883s12.178-2.444,16.617-6.883
+		l156.687-156.687c2.929-2.929,2.929-7.678,0-10.606C393.875,223.268,389.125,223.268,386.197,226.197z"
+															/>
+														</svg>
+													</div>
+												</div>
+												<div class="t-content">
+													<div class="t-uppercontent">
+														<h5>Top performing month</h5>
+													</div>
+													<p>--</p>
+												</div>
+											</div>
+
+											<div class="item-timeline timeline-new top-day-of-week">
+												<div class="t-dot">
+													<div class="t-warning">
+														<svg
+															version="1.1"
+															xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink"
+															x="0px"
+															y="0px"
+															viewBox="0 0 488 488"
+															style="
+																enable-background: new 0 0 488 488;
+																fill: white;
+															"
+															xml:space="preserve"
+														>
+															<g transform="translate(0 -540.36)">
+																<path
+																	d="M351.1,846.96l-97.1-67.9v-116.7c0-5.5-4.5-10-10-10s-10,4.5-10,10v122c0,3.3,1.6,6.3,4.3,8.2l101.4,70.9
+				c1.7,1.2,3.7,1.8,5.7,1.8v0c3.1,0,6.2-1.5,8.2-4.4C356.7,856.36,355.6,850.16,351.1,846.96z"
+																/>
+																<path
+																	d="M416.4,611.96L416.4,611.96c-46.2-46.2-107.4-71.6-172.4-71.6s-126.2,25.4-172.4,71.6C25.4,658.16,0,719.36,0,784.36
+				s25.4,126.2,71.6,172.4c46.2,46.2,107.4,71.6,172.4,71.6s126.2-25.4,172.4-71.6s71.6-107.4,71.6-172.4S462.6,658.16,416.4,611.96
+				z M254,1008.16L254,1008.16v-40.8c0-5.5-4.5-10-10-10s-10,4.5-10,10v40.8c-115.6-5.1-208.7-98.2-213.8-213.8H61
+				c5.5,0,10-4.5,10-10s-4.5-10-10-10H20.2c5.1-115.6,98.2-208.7,213.8-213.8v40.8c0,5.5,4.5,10,10,10s10-4.5,10-10v-40.8
+				c115.6,5.1,208.7,98.2,213.8,213.8H427c-5.5,0-10,4.5-10,10s4.5,10,10,10h40.8C462.7,909.96,369.6,1003.06,254,1008.16z"
+																/>
+															</g>
+														</svg>
+													</div>
+												</div>
+												<div class="t-content">
+													<div class="t-uppercontent">
+														<h5>Top day of the week per interactions</h5>
+														<span class=""></span>
+													</div>
+													<p>--</p>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="w-shadow-bottom"></div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing"
+						>
+							<div class="widget-four">
+								<div class="widget-heading">
+									<h5 class="">Percentage Of Followers Per Platform</h5>
+								</div>
+								<div class="widget-content">
+									<div class="vistorsBrowser">
+										<div class="browser-list fb-stat">
+											<div class="w-icon">
+												<svg
+													version="1.1"
+													id="Capa_1"
+													xmlns="http://www.w3.org/2000/svg"
+													xmlns:xlink="http://www.w3.org/1999/xlink"
+													x="0px"
+													y="0px"
+													viewBox="0 0 48.605 48.605"
+													style="
+														enable-background: new 0 0 48.605 48.605;
+														fill: white;
+													"
+													xml:space="preserve"
+												>
+													<path
+														d="M34.094,8.688h4.756V0.005h-8.643c-0.721-0.03-9.51-0.198-11.788,8.489c-0.033,0.091-0.761,2.157-0.761,6.983l-7.903,0.024
+		v9.107l7.913-0.023v24.021h12.087v-24h8v-9.131h-8v-2.873C29.755,10.816,30.508,8.688,34.094,8.688z M35.755,17.474v5.131h-8v24
+		h-8.087V22.579l-7.913,0.023v-5.107l7.934-0.023l-0.021-1.017c-0.104-5.112,0.625-7.262,0.658-7.365
+		c1.966-7.482,9.473-7.106,9.795-7.086l6.729,0.002v4.683h-2.756c-4.673,0-6.338,3.054-6.338,5.912v4.873L35.755,17.474
+		L35.755,17.474z"
+													/>
+												</svg>
+											</div>
+											<div class="w-browser-details">
+												<div class="w-browser-info">
+													<h6>Facebook</h6>
+													<p
+														class="browser-count facebook-followers-percentage"
+													>
+														--%
+													</p>
+												</div>
+												<div class="w-browser-stats">
+													<div class="progress">
+														<div
+															class="progress-bar bg-gradient-primary facebook-followers-progressbar"
+															role="progressbar"
+															style="width: 0%"
+															aria-valuenow="90"
+															aria-valuemin="0"
+															aria-valuemax="100"
+														></div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="browser-list insta-stat">
+											<div class="w-icon">
+												<?xml version="1.0" encoding="utf-8"?>
+
+												<svg
+													version="1.1"
+													id="Icons"
+													xmlns="http://www.w3.org/2000/svg"
+													xmlns:xlink="http://www.w3.org/1999/xlink"
+													x="0px"
+													y="0px"
+													viewBox="0 0 32 32"
+													style="enable-background: new 0 0 32 32"
+													xml:space="preserve"
+												>
+													<style type="text/css">
+														.st0 {
+															fill: none;
+															stroke: #fff;
+															stroke-width: 2;
+															stroke-linecap: round;
+															stroke-linejoin: round;
+															stroke-miterlimit: 10;
+														}
+														.st1 {
+															fill: none;
+															stroke: #fff;
+															stroke-width: 2;
+														}
+														.st2 {
+															fill: none;
+															stroke: #fff;
+															stroke-width: 2;
+															stroke-miterlimit: 10;
+														}
+													</style>
+													<path
+														class="st0"
+														d="M23,31H9c-4.4,0-8-3.6-8-8V9c0-4.4,3.6-8,8-8h14c4.4,0,8,3.6,8,8v14C31,27.4,27.4,31,23,31z"
+													/>
+													<circle class="st0" cx="16" cy="16" r="7" />
+													<circle class="st0" cx="24" cy="7" r="1" />
+												</svg>
+											</div>
+											<div class="w-browser-details">
+												<div class="w-browser-info">
+													<h6>Instagram</h6>
+													<p
+														class="browser-count instagram-followers-percentage"
+													>
+														--%
+													</p>
+												</div>
+
+												<div class="w-browser-stats">
+													<div class="progress">
+														<div
+															class="progress-bar bg-gradient-danger instagram-followers-progressbar"
+															role="progressbar"
+															style="width: 0%"
+															aria-valuenow="65"
+															aria-valuemin="0"
+															aria-valuemax="100"
+														></div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="browser-list twitter-stat">
+											<div class="w-icon">
+												<svg
+													version="1.1"
+													id="Layer_1"
+													xmlns="http://www.w3.org/2000/svg"
+													xmlns:xlink="http://www.w3.org/1999/xlink"
+													x="0px"
+													y="0px"
+													viewBox="0 0 512 512"
+													style="
+														enable-background: new 0 0 512 512;
+														fill: white;
+													"
+													xml:space="preserve"
+												>
+													<path
+														d="M507.413,93.394c-3.709-2.51-8.607-2.383-12.174,0.327c-3.612,2.735-9.474,5.087-16.138,7.016
+			c18.245-21.301,18.623-35.541,18.408-38.893c-0.245-3.801-2.541-7.168-5.985-8.791c-3.459-1.612-7.51-1.23-10.587,1.005
+			c-21.893,15.908-43.689,19.373-56.791,19.76c-20.337-19.342-46.704-29.944-74.74-29.944c-60.271,0-109.307,49.684-109.307,110.751
+			c0,4.944,0.327,9.878,0.969,14.771C138.176,167.645,54.665,69.155,53.803,68.119c-2.184-2.617-5.5-4.041-8.929-3.714
+			c-3.398,0.296-6.444,2.235-8.148,5.189c-29.005,50.322-11.286,94.725,6.505,121.327c-1.837-1.092-3.342-2.097-4.372-2.857
+			c-3.143-2.337-7.337-2.725-10.852-0.995c-3.521,1.735-5.771,5.286-5.837,9.209c-0.786,48.255,21.764,76.49,43.674,92.49
+			c-2.372,0.327-4.597,1.459-6.266,3.276c-2.51,2.724-3.393,6.576-2.311,10.122c15.194,49.735,52.041,67.352,76.373,73.587
+			c-49.22,37.138-120.557,25.016-121.348,24.867c-4.73-0.831-9.464,1.663-11.408,6.082c-1.939,4.413-0.612,9.587,3.225,12.51
+			c52.464,40.041,115.21,48.913,160.53,48.913c34.272,0,58.573-5.077,60.91-5.582c228.617-54.179,235.864-263.063,235.394-298.66
+			c42.888-39.929,49.633-55.255,50.684-59.067C512.811,100.502,511.117,95.91,507.413,93.394z M443.283,151.752
+			c-2.33,2.143-3.56,5.235-3.346,8.398c0.036,0.561,3.536,57.179-21.694,120.266c-33.709,84.291-100.164,138.725-197.307,161.746
+			c-1.041,0.219-90.905,18.831-169.792-18.689c33.725-1.414,80.429-10.913,113.292-47.806c2.745-3.077,3.398-7.833,1.709-11.593
+			c-1.689-3.75-5.439-6.51-9.551-6.51c-0.02,0-0.041,0-0.071,0c-2.76,0-50.337-0.357-73.133-46.306
+			c9.219,0.398,20.24-0.145,29.122-4.237c4.092-1.888,6.51-6.1,6.005-10.574c-0.505-4.475-3.821-8.079-8.23-9.008
+			c-2.556-0.541-57.649-12.836-66.143-72.693c8.464,3.526,19.015,6.257,29.51,4.685c4.031-0.602,7.332-3.5,8.474-7.413
+			c1.138-3.908-0.107-8.13-3.184-10.809c-2.383-2.07-54.327-48.273-30.541-107.973c28.158,29.332,108.46,102.368,205.833,96.786
+			c3.107-0.179,5.975-1.74,7.82-4.25c1.843-2.51,2.471-5.709,1.71-8.728c-1.837-7.316-2.77-14.857-2.77-22.418
+			c0-49.546,39.658-89.853,88.409-89.853c23.842,0,46.203,9.515,62.97,26.796c1.923,1.985,4.556,3.122,7.322,3.174
+			c9.658,0.092,25.561-0.949,43.531-7.633c-5.359,6.275-12.852,13.622-23.332,21.852c-3.622,2.847-4.954,7.735-3.276,12.026
+			c1.684,4.301,6.056,7.02,10.566,6.607c2.112-0.168,12.352-1.071,24.352-3.505C464.662,131.4,455.494,140.523,443.283,151.752z"
+													/>
+												</svg>
+											</div>
+											<div class="w-browser-details">
+												<div class="w-browser-info">
+													<h6>Twitter</h6>
+													<p class="browser-count twitter-followers-percentage">
+														--%
+													</p>
+												</div>
+
+												<div class="w-browser-stats">
+													<div class="progress">
+														<div
+															class="progress-bar bg-gradient-warning twitter-followers-progressbar"
+															role="progressbar"
+															style="width: 0%"
+															aria-valuenow="15"
+															aria-valuemin="0"
+															aria-valuemax="100"
+														></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
+							<div class="row widget-statistic">
+								<div
+									class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 layout-spacing"
+								>
+									<div class="widget widget-one_hybrid widget-followers">
+										<div class="widget-heading">
+											<div class="w-title">
+												<div class="w-icon">
+													<svg
+														xmlns="http://www.w3.org/2000/svg"
+														width="24"
+														height="24"
+														viewBox="0 0 24 24"
+														fill="none"
+														stroke="currentColor"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														class="feather feather-users"
+													>
+														<path
+															d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+														></path>
+														<circle cx="9" cy="7" r="4"></circle>
+														<path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+														<path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+													</svg>
+												</div>
+												<div class="">
+													<p class="w-value">__</p>
+													<h5 class="">Followers</h5>
+												</div>
+											</div>
+										</div>
+										<div class="widget-content">
+											<div class="w-chart">
+												<div id="hybrid_followers"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 layout-spacing"
+								>
+									<div class="widget widget-one_hybrid widget-referral">
+										<div class="widget-heading">
+											<div class="w-title">
+												<div class="w-icon">
+													<svg
+														xmlns="http://www.w3.org/2000/svg"
+														width="24"
+														height="24"
+														viewBox="0 0 24 24"
+														fill="none"
+														stroke="currentColor"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														class="feather feather-link"
+													>
+														<path
+															d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+														></path>
+														<path
+															d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+														></path>
+													</svg>
+												</div>
+												<div class="">
+													<p class="w-value">__</p>
+													<h5 class="">Following</h5>
+												</div>
+											</div>
+										</div>
+										<div class="widget-content">
+											<div class="w-chart">
+												<div id="hybrid_followers1"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div
+									class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 layout-spacing"
+								>
+									<div class="widget widget-one_hybrid widget-engagement">
+										<div class="widget-heading">
+											<div class="w-title">
+												<div class="w-icon">
+													<svg
+														xmlns="http://www.w3.org/2000/svg"
+														width="24"
+														height="24"
+														viewBox="0 0 24 24"
+														fill="none"
+														stroke="currentColor"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														class="feather feather-message-circle"
+													>
+														<path
+															d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+														></path>
+													</svg>
+												</div>
+												<div class="">
+													<p class="w-value">__</p>
+													<h5 class="">Number of posts</h5>
+												</div>
+											</div>
+										</div>
+										<div class="widget-content">
+											<div class="w-chart">
+												<div id="hybrid_followers3"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing"
+							style="display: flex"
+						>
+							<div
+								class="widget widget-one meter-container-wrapper"
+								style="flex: 1; display: flex"
+							>
+								<div
+									class="widget-content"
+									style="flex: 1; display: flex; flex-direction: column"
+								>
+									<div class="w-header">
+										<div class="w-info">
+											<h6 class="value">Engagement Rate</h6>
+											
+										</div>
+									</div>
+
+									<div
+										class="w-content"
+										style="
+											flex: 1;
+											display: flex;
+											justify-content: space-between;
+										"
+									>
+										<div class="w-info" style="flex: 1; display: flex">
+											<div
+												class="meter-container"
+												style="
+													flex: 1;
+													display: flex;
+													flex-direction: column;
+													justify-content: space-evenly;
+												"
+											>
+												<h1
+													style="
+														font-weight: bold;
+														text-align: center;
+														font-size: 70px;
+													"
+												>
+													--%
+												</h1>
+												<div class="progress progress-bar-stack mb-4 br-30">
+													<span class="meter-label">--</span>
+													<div
+														class="progress-bar bg-danger"
+														role="progressbar"
+														style="width: 33.33%"
+														aria-valuenow="20"
+														aria-valuemin="0"
+														aria-valuemax="100"
+													></div>
+													<div
+														class="progress-bar bg-warning"
+														role="progressbar"
+														style="width: 33.33%"
+														aria-valuenow="30"
+														aria-valuemin="0"
+														aria-valuemax="100"
+													></div>
+													<div
+														class="progress-bar bg-success"
+														role="progressbar"
+														style="width: 33.33%"
+														aria-valuenow="15"
+														aria-valuemin="0"
+														aria-valuemax="100"
+													></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-8 layout-spacing top-post-sample">
+							<div class="widget widget-card-one widget-one">
+								<div class="widget-content" style="margin-bottom: 20px">
+									<div class="w-header">
+										<div class="w-info">
+											<h6 class="value">Most like post across all platforms</h6>
+										</div>
+									</div>
+								</div>
+
+								<div class="widget-content">
+									<div class="media">
+										<div class="w-img">
+											<img src="" alt="avatar" />
+										</div>
+										<div class="media-body">
+											<h6>Jimmy Turner</h6>
+											<p class="meta-date-time">--</p>
+										</div>
+									</div>
+
+									<p>--</p>
+
+									<div class="w-action">
+										<div class="card-like">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="24"
+												height="24"
+												viewBox="0 0 24 24"
+												fill="none"
+												stroke="currentColor"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												class="feather feather-thumbs-up"
+											>
+												<path
+													d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+												></path>
+											</svg>
+											<span>-- Likes</span>
+										</div>
+
+										<div class="read-more">
+											<a href="javascript:void(0);" target="_blank">
+												Open page
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="24"
+													height="24"
+													viewBox="0 0 24 24"
+													fill="none"
+													stroke="currentColor"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													class="feather feather-chevrons-right"
+												>
+													<polyline points="13 17 18 12 13 7"></polyline>
+													<polyline points="6 17 11 12 6 7"></polyline>
+												</svg>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endblock %}
+			<!--  END CONTENT AREA  -->
+		</div>
+		<!-- END MAIN CONTAINER -->
+
+		<!-- MODALS -->
+		<!-- Modal 
+		<div
+			class="modal fade"
+			id="new_query"
+			tabindex="-1"
+			role="dialog"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog" role="document">
+				<form class="modal-content" action="/home" method="get">
+					<div class="modal-header">
+						<h5 class="modal-title" id="new_query">New query</h5>
+						<button
+							type="button"
+							class="close"
+							data-dismiss="modal"
+							aria-label="Close"
+						>
+							<svg
+								aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="white"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="feather feather-x"
+							>
+								<line x1="18" y1="6" x2="6" y2="18"></line>
+								<line x1="6" y1="6" x2="18" y2="18"></line>
+							</svg>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="exampleFormControlInput1">You query key</label>
+							<input type="text" class="form-control" name="q" value="Tesla" />
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlInput1"
+								>Sentiment Analysis Method</label
+							>
+							<select class="form-control" name="analysis">
+								<option selected disabled>Analysis Method</option>
+								<option value="textblob">Quick</option>
+								<option value="bert">Slow</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlInput1"
+								>How many records? (50-1000)</label
+							>
+							<input
+								type="range"
+								class="form-control"
+								min="50"
+								max="1000"
+								value="100"
+								name="limit"
+							/>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn" data-dismiss="modal">
+							<i class="flaticon-cancel-12"></i> Discard
+						</button>
+						<button type="submit" class="btn btn-primary">Query</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- /MODALS -->
+
+		<!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+		<script src="{%static 'assets/js/libs/jquery-3.1.1.min.js' %}"></script>
+		<script src="{%static 'bootstrap/js/popper.min.js' %}"></script>
+		<script src="{%static 'bootstrap/js/bootstrap.min.js' %}"></script>
+		<script src="{%static 'plugins/perfect-scrollbar/perfect-scrollbar.min.js' %}"></script>
+		<script src="{%static 'assets/js/app.js' %}"></script>
+		<script>
+			$(document).ready(function () {
+				App.init();
+			});
+		</script>
+		<script src="{%static 'assets/js/custom.js' %}"></script>
+		<!-- END GLOBAL MANDATORY SCRIPTS -->
+
+		<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+		<script src="{%static 'plugins/apex/apexcharts.min.js' %}"></script>
+		<script src="{%static 'assets/js/dashboard/home-page.js' %}"></script>
+		<script src="{%static 'assets/js/dashboard/social-media-monitoring-charts.js' %}"></script>
+		<script src="{%static 'assets/js/elements/popovers.js' %}"></script>
+		<!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
+	</body>
+</html>

@@ -1,0 +1,7 @@
+*.zip
+*.pem
+*.pickle
+*.pyc
+saved-chatbots/*
+*/__pycache__/*
+.instagramy_cache/*

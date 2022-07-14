@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Whispers Analytics App</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Nunito:400,600,700"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+				outline: 0;
+				border: 0;
+			}
+			body {
+				background-color: #060818;
+				color: white;
+				font-family: "Nunito", sans-serif;
+			}
+			h1 {
+				height: 15vh;
+				font-size: 40px;
+				text-align: center;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				letter-spacing: 5px;
+			}
+			h1 small {
+				display: block;
+				letter-spacing: 0;
+				font-size: 60%;
+				margin-top: 10px;
+				font-weight: normal;
+			}
+			.sections-cards-wrapper {
+				display: -ms-grid;
+				display: grid;
+				-ms-grid-columns: (1fr) [2];
+				grid-template-columns: repeat(2, 1fr);
+				-ms-grid-rows: (1fr) [2];
+				grid-template-rows: repeat(2, 1fr);
+				grid-gap: 20px;
+				height: 85vh;
+				padding: 50px;
+			}
+			.sections-cards-wrapper .section-card {
+				background-color: #fff;
+				border-radius: 15px;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: start;
+				-ms-flex-pack: start;
+				justify-content: flex-start;
+				-webkit-box-align: start;
+				-ms-flex-align: start;
+				align-items: flex-start;
+				-webkit-box-orient: vertical;
+				-webkit-box-direction: normal;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				gap: 25px;
+				padding: 50px;
+				text-align: left;
+				position: relative;
+				overflow: hidden;
+				color: white;
+				text-decoration: none;
+				-webkit-transition: 0.15s;
+				transition: 0.15s;
+			}
+			.sections-cards-wrapper .section-card:hover svg {
+				right: 0;
+				bottom: 0;
+			}
+			.sections-cards-wrapper .section-card h4 {
+				font-size: 35px;
+			}
+			.sections-cards-wrapper .section-card p {
+				font-size: 20px;
+				line-height: 1.6;
+			}
+			.sections-cards-wrapper .section-card:nth-of-type(1) {
+				background: -webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					from(#ef5159),
+					to(#e96e6e)
+				);
+				background: linear-gradient(0deg, #ef5159 0%, #e96e6e 100%);
+			}
+			.sections-cards-wrapper .section-card:nth-of-type(2) {
+				background: -webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					from(#1eba40),
+					to(#38c85e)
+				);
+				background: linear-gradient(0deg, #1eba40 0%, #38c85e 100%);
+			}
+			.sections-cards-wrapper .section-card:nth-of-type(3) {
+				background: -webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					from(#2e56ae),
+					to(#4f68c5)
+				);
+				background: linear-gradient(0deg, #2e56ae 0%, #4f68c5 100%);
+			}
+			.sections-cards-wrapper .section-card:nth-of-type(4) {
+				background: -webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					from(#783fab),
+					to(#885cb9)
+				);
+				background: linear-gradient(0deg, #783fab 0%, #885cb9 100%);
+			}
+			.sections-cards-wrapper .section-card svg {
+				opacity: 0.4;
+				/* fill: white; */
+				position: absolute;
+				bottom: -20px;
+				right: -20px;
+				width: 20%;
+				-webkit-transform: scale(1.3);
+				transform: scale(1.3);
+				-webkit-transition: 0.15s;
+				transition: 0.15s;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			Welcome {{user.username}} to Whispers
+			<br />
+			<small>A platform that helps Marketers in their daily basis.</small>
+		</h1>
+		<div class="sections-cards-wrapper">
+			<a href="{%url 'home' %}" class="section-card">
+				<h4>Sentiment Analysis</h4>
+				<p>
+					Explore worldwide Twitter data to understand the sentiment and significance of each tweet in both English and Arabic				</p>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="feather feather-pie-chart"
+				>
+					<path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+					<path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+				</svg>
+			</a>
+			<a href="{%url 'social_media_monitoring_index' %}" class="section-card">
+				<h4>Social Media Monitoring</h4>
+				<p>
+					Monitor all of your social media accounts at the same time, in one location. 
+				</p>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					version="1.1"
+					id="Layer_1"
+					x="0px"
+					y="0px"
+					viewBox="0 0 512 512"
+					style="enable-background: new 0 0 512 512"
+					xml:space="preserve"
+					fill="#fff"
+				>
+					<path
+						d="M316.487,417.365h-0.893l-19.446-81.211c-11.838,2.34-24.034,3.81-36.496,4.026l18.519,77.186h-44.345l18.519-77.185    c-12.461-0.217-24.657-1.686-36.495-4.026l-19.445,81.21h-0.893c-35.557,0-64.479,29.509-64.479,65.065v10.779    c0,10.051,8.142,18.791,18.193,18.791h213.548c10.051,0,18.193-8.74,18.193-18.791V482.43    C380.966,446.874,352.044,417.365,316.487,417.365z"
+					/>
+					<path
+						d="M274.198,33.774V18.199C274.198,8.148,266.05,0,255.999,0S237.8,8.148,237.8,18.199v15.575l-77.227,87.553h48.44    L237.8,88.939v32.388h36.398V88.939l28.79,32.388h48.439L274.198,33.774z"
+					/>
+					<path
+						d="M430.528,146.242c-2.588-6.9-9.224-11.569-17.026-11.569H98.497c-7.803,0-14.438,4.67-17.026,11.569    c-0.746,1.989-1.173,4.006-1.173,6.254c0,19.307,3.14,37.831,8.92,55.222c23.221,69.878,89.207,120.353,166.781,120.353    c77.575,0,143.559-50.538,166.782-120.416c5.781-17.391,8.92-35.977,8.92-55.284C431.7,150.122,431.274,148.23,430.528,146.242z"
+					/>
+				</svg>
+			</a>
+			<a href="{%url 'g_trends' %}" class="section-card">
+				<h4>Google Trends</h4>
+				<p>
+					Discover the most recent trends on Google to gather knowledge,or even compare two trends at once.
+				</p>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					viewBox="0 0 24 24"
+					version="1.1"
+				>
+					<g
+						id="brand"
+						stroke="none"
+						stroke-width="1"
+						fill="none"
+						fill-rule="evenodd"
+					>
+						<g id="google" fill="#fff" fill-rule="nonzero">
+							<path
+								d="M11.99,13.9 L11.99,10.18 L21.35,10.18 C21.49,10.81 21.6,11.4 21.6,12.23 C21.6,17.94 17.77,22 12,22 C6.48,22 2,17.52 2,12 C2,6.48 6.48,2 12,2 C14.7,2 16.96,2.99 18.69,4.61 L15.85,7.37 C15.13,6.69 13.87,5.89 12,5.89 C8.69,5.89 5.99,8.64 5.99,12.01 C5.99,15.38 8.69,18.13 12,18.13 C15.83,18.13 17.24,15.48 17.5,13.91 L11.99,13.91 L11.99,13.9 Z"
+								id="Shape"
+							/>
+						</g>
+					</g>
+				</svg>
+			</a>
+			<a href="{%url 'chatbots_list' %}" class="section-card">
+				<h4>Chatbot Builder</h4>
+				<p>
+					Build an end-to-end domain-specific intelligent chatbot solution that can respond to your customer's messages 
+				</p>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24"
+					role="img"
+					fill="#fff"
+				>
+					<path
+						d="M11.999 0c-2.25 0-4.5.06-6.6.21a5.57 5.57 0 0 0-5.19 5.1c-.24 3.21-.27 6.39-.06 9.6a5.644 5.644 0 0 0 5.7 5.19h3.15v-3.9h-3.15c-.93.03-1.74-.63-1.83-1.56-.18-3-.15-6 .06-9 .06-.84.72-1.47 1.56-1.53 2.04-.15 4.2-.21 6.36-.21s4.32.09 6.36.18c.81.06 1.5.69 1.56 1.53.24 3 .24 6 .06 9-.12.93-.9 1.62-1.83 1.59h-3.15l-6 3.9V24l6-3.9h3.15c2.97.03 5.46-2.25 5.7-5.19.21-3.18.18-6.39-.03-9.57a5.57 5.57 0 0 0-5.19-5.1c-2.13-.18-4.38-.24-6.63-.24zm-5.04 8.76c-.36 0-.66.3-.66.66v2.34c0 .33.18.63.48.78 1.62.78 3.42 1.2 5.22 1.26 1.8-.06 3.6-.48 5.22-1.26.3-.15.48-.45.48-.78V9.42c0-.09-.03-.15-.09-.21a.648.648 0 0 0-.87-.36c-1.5.66-3.12 1.02-4.77 1.05-1.65-.03-3.27-.42-4.77-1.08a.566.566 0 0 0-.24-.06z"
+					/>
+				</svg>
+			</a>
+		</div>
+	</body>
+</html>

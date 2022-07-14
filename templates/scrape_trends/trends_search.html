@@ -1,0 +1,98 @@
+{% extends "scrape_trends/trends_page.html" %}
+<!--  -->
+{% load static %}
+<!--  -->
+{% block content %}
+
+<div id="content" class="main-content">
+	<div class="layout-px-spacing">
+		<div class="layout-px-spacing">
+			<div class="row layout-top-spacing">
+				<div class="col-6 layout-spacing">
+					<div class="widget widget-one">
+						<div class="widget-heading">
+							<h6 style="margin: 0">Searches in the last three months</h6>
+				
+						</div>
+						<!-- <center>{{bar|safe}}</center> -->
+						<canvas
+							id="line-chart"
+							data-url="{% url 'time_series' query=srch %}"
+						></canvas>
+					</div>
+				</div>
+				<div class="col-6 layout-spacing">
+					<div class="widget widget-one">
+						<div class="widget-heading">
+							<h6 style="margin: 0">Most Searches in a specific country</h6>
+		
+						</div>
+						<!-- <center>{{tm_sr|safe}}</center> -->
+						<canvas
+							id="bar-chart"
+							data-url="{% url 'bar-chart' query=srch %}"
+						></canvas>
+					</div>
+				</div>
+				<div class="col-6 layout-spacing">
+					<div class="widget widget-one">
+						<div class="widget-heading">
+							<h6 style="margin: 0">Most Searched in each country</h6>
+			
+						</div>
+						<div>
+							<center>{{choro|safe}}</center>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 layout-spacing">
+					<div class="widget widget-one">
+						<div class="widget-heading">
+							<h6 style="margin: 0">Related search with your trends </h6>
+			
+						</div>
+
+						<div class="table-responsive" style="padding-top: 20px">
+							<div
+								style="height: 450px; overflow: auto"
+								class="custom-scrollbar"
+							>
+								<table class="table table-scroll">
+									<thead>
+										<tr>
+											<th>
+												<div class="th-content th-heading">Related Query</div>
+											</th>
+											<th>
+												<div
+													class="th-content th-heading"
+													style="padding-left: 40px"
+												>
+													NO. Searches
+												</div>
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+										{% for key, values in top_queries.items %}
+										<tr>
+											<td>{{key}}</td>
+											<td><div style="margin-left: 75px">{{values}}</div></td>
+										</tr>
+										{% endfor %}
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="{%static 'g_trends/g_trends_charts.js' %}"></script>
+
+{% endblock %}
